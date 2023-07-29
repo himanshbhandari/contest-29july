@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar p-1 navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Complex UI</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Section 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Section 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Section 3</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section-1">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1524229648276-e66561fe45a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1143&q=80"
+              class="d-block w-100"
+              alt="slide 1"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fw-bold">First slide</h5>
+              <p>This is my first slide.</p>
+              <button type="button" class="btn btn-primary rounded border-0">
+                Call to Action
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1164&q=80"
+              class="d-block w-100"
+              alt="slide 2"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fw-bold">Second slide</h5>
+              <p>This is my second slide.</p>
+              <button type="button" class="btn btn-primary rounded border-0">
+                Call to Action
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1457821324592-4ce8426fd1e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+              class="d-block w-100"
+              alt="slide 3"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fw-bold">Third slide</h5>
+              <p>This is my third slide.</p>
+              <button type="button" class="btn btn-primary rounded border-0">
+                Call to Action
+              </button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section
+      class="section-2 d-flex align-items-center justify-content-center mt-3 mx-5">
+      <div class="card-group ">
+        <div class="card m-2">
+          <img src="https://images.unsplash.com/photo-1561842080-2b1aa9060ea7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="card-img-top" alt="card">
+          <div class="card-body">
+            <p class="card-title text-center">This is my card</p>
+            
+          </div>
+        </div>
+        <div class="card m-2">
+          <img src="https://images.unsplash.com/photo-1561842080-2b1aa9060ea7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-title text-center">This is my card</p>
+            
+          </div>
+        </div>
+        <div class="card m-2">
+          <img src="https://images.unsplash.com/photo-1561842080-2b1aa9060ea7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-title text-center">This is my card</p>
+            
+          </div>
+        </div>
+      </div>      
+    </section>
+
+    <!-- ----------------------------section-3------------- -->
+    <section class="section-3  mx-5">
+      
+      <div class="card-group">
+        <div class="card p-2 border-0">
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          
+        </div>
+        <div class="card p-2 border-0">
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          
+        </div>
+        <div class="card p-2 border-0">
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card p-2 border-0">
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          
+        </div>
+        <div class="card p-2 border-0">
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          
+        </div>
+        <div class="card p-2 border-0">
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" class="card-img-top" alt="...">
+          
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- --------------------------section-4----------------------------- -->
+
+    <section class="section-4 mt-3 mx-5">
+      <div class="card-group">
+        <div class="card p-2 border-0">
+          <img src="https://images.unsplash.com/photo-1686554730082-fbb8b1aadcf5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="card-img-top" alt="...">
+          
+        </div>
+        <div class="card p-2 border-0">
+          <img src="https://images.unsplash.com/photo-1686554730082-fbb8b1aadcf5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="card-img-top" alt="...">
+          
+        </div>
+        
+      </div>
+    </div>
+    </section>
+
+    <section class="section-5 mt-5 mx-5">
+      <div class="card-group">
+        <div class="card mx-2">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1681412205172-8c06ca667689?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+            class="card-img-top"
+            alt="card"
+          />
+          <div class="card-body">
+            <h5 class="card-title">First title</h5>
+            <p class="card-text">This is my first card.</p>
+            <button class="btn bg-primary rounded text-white">
+              Call to Action
+            </button>
+          </div>
+        </div>
+        <div class="card mx-2">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1681412205172-8c06ca667689?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+            class="card-img-top"
+            alt="card"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is my sec card.</p>
+            <button class="btn bg-primary rounded text-white">
+              Call to Action
+            </button>
+          </div>
+        </div>
+        <div class="card mx-2">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1681412205172-8c06ca667689?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+            class="card-img-top"
+            alt="card"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Third title</h5>
+            <p class="card-text">This is my third card.</p>
+            <button class="btn bg-primary rounded text-white">
+              Call to Action
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------footer-section--------------------- -->
+    <footer class="my-footer mt-5">
+      <div class="footer-row-1 d-flex flex-wrap justify-content-around">
+        <div class="d-flex flex-column">
+          <h4>Useful Links</h4>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+        <div class="d-flex flex-column">
+          <h4>More Links</h4>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="d-flex flex-column">
+          <h4>Contact Us</h4>
+          <p>Email:example@xyz.com</p>
+          <p>+1(555)123-4567</p>
+        </div>
+      </div>
+      <div class="footer-row-2 mx-5 p-3">
+        <p>@ 2023 Complex UI. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
